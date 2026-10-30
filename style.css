@@ -1,0 +1,79 @@
+
+* {
+    background-color: black;
+    color: white;
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: orange;
+}
+
+body {
+    font-family:garamond, system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.story {
+    padding: 8%;
+}
+
+header, footer {
+    background-color: #900;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    background-color: transparent;
+}
+
+header p {
+    background-color: transparent;
+}
+
+.ghost {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.pumpkin {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+}
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    background-color: transparent;
+}
+
+#madLibOutput {
+    background-color: #222;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #900;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#madLibOutput p {
+    background-color: transparent;
+}
+
+
+
